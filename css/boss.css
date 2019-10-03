@@ -1,0 +1,261 @@
+nav {
+    background-color: #555555;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.left-nav a {
+    text-decoration: underline;
+    padding: 14px 16px;
+    display: block;
+    color: white;
+}
+
+.left-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-nav a:hover {
+    background-color: #6f6f6f;
+}
+
+.left-nav li {
+    display: inline-block;
+}
+
+.left-nav {
+    margin-left: 5%;
+    display: inline-block;
+}
+
+
+
+.right-nav span {
+    padding-top: 14px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.right-nav {
+    position: relative;
+    margin-right: 5%;
+    float: right;
+    display: inline-block;
+}
+
+.pull-right {
+    z-index: 2;
+    position: absolute;
+}
+
+.right-nav a {
+    text-align: center;
+    color: #fff;
+    display: none;
+}
+
+.col-lg-7 div {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-lg-5 div {
+    padding-left: 30px;
+}
+
+.my-first-container {
+    box-sizing: border-box;
+    background-color: #F8CB1C;
+}
+
+.my-first-container a {
+    display: block;
+}
+
+.first-href a {
+    padding-top: 14px;
+    display: block;
+    font-size: 3em;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.second-href {
+    border-radius: 4px 4px 0 0;
+    padding-top: 25px;
+}
+
+.second-href a {
+    background-color: #f9d54b;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.third-href {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 4px 4px 0 0;
+    padding-top: 25px;
+}
+
+.third-href a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ;
+}
+
+.third-href a:hover {
+    background-color: #ffdf80;
+}
+
+.fourth-href {
+    border-radius: 4px 4px 0 0;
+    padding-top: 40px;
+}
+
+.fourth-href a {
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fourth-href a:hover {
+    background-color: #ffdf80;
+}
+
+.sixth-href {
+    border-radius: 4px 4px 0 0;
+    padding-top: 45px;
+}
+
+.sixth-href a {
+    background-color: #f9f3d9;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #333;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sixth-href a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    background-color: #f9f3d9;
+    border-radius: 5px;
+
+}
+
+.my-second-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F9D54B;
+}
+
+.my-second-container .container {
+    margin-left: 15%;
+}
+
+.my-second-container a {
+    font-weight: bold;
+    color: #333333;
+    text-decoration: underline;
+    vertical-align: middle;
+}
+
+.my-second-container a:hover {
+    background-color: #ffdf80;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.search-div{
+    background-color: #F8CB1C;
+}
+.news{
+ text-align: center;
+}
+.search-div:hover{
+    background-color: #F9D54B;
+    cursor: pointer;
+}
+.select-collection{
+    display: none;
+    background-color: #F8CB1C;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.label{
+    margin-left: 15%;
+    font-weight: bold;
+    color: #625E51;
+    
+}
+select{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 15%;
+}
+input{
+    
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 15%;
+    outline: none;
+    border: none; 
+}
+.col-lg-4{
+    margin-top: 15px;
+}
+.col-lg-12 button{
+    font-weight: bold;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    cursor: pointer;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    background-color: #fff;
+    color: #555;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    border-radius: 6px;
+    margin-left: 48%;
+    width: 7%;
+  }
+  .col-lg-12 button:hover{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    background-color: #f9f3d9;
+  }
+  .old{
+    padding-top: 20px;
+  }
